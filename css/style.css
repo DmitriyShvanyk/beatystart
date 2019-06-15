@@ -1,0 +1,12 @@
+/* plugins */
+@import url('../vendor/fancybox/fancybox.css');
+@import url('../vendor/owl.carousel/owl.carousel.min.css');
+@import url('../vendor/owl.carousel/owl.theme.default.min.css');
+
+@import url('../css/fonts.css');
+@import url('../css/basic.css');
+@import url('../css/header.css');
+@import url('../css/intro.css');
+@import url('../css/access.css');
+
+@import url('../css/footer.css');

@@ -1,0 +1,27 @@
+<svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" preserveAspectRatio="xMidYMid meet" style="transform: translate3d(0px, 0px, 0px);">
+                        <defs>
+                            <clipPath id="animationMask_Zv6RVPM3ld">
+                                <rect width="120" height="160" x="0" y="0"></rect>
+                            </clipPath>
+                        </defs>
+                        <g clip-path="url(#animationMask_Zv6RVPM3ld)">
+                            <g transform="matrix(-0.6698979735374451,-0.011693112552165985,0.011693112552165985,-0.6698979735374451,102.19306945800781,148.74591064453125)"
+                                opacity="1">
+                                <g opacity="1" transform="matrix(1.5,0,0,1.5,0,0)">
+                                    <path class="arrow-svg-path" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
+                                        stroke="rgb(147,83,242)" stroke-opacity="1" stroke-width="6"
+                                        d=" M1.7599999904632568,0 C1.7599999904632568,0 -0.3109999895095825,97.75800323486328 50.26100158691406,102.5 C88.83799743652344,105.53700256347656 101.96299743652344,55.30099868774414 70.76899719238281,36.65999984741211 C49.209999084472656,23.777000427246094 1,40.08000183105469 0.09000000357627869,93.62000274658203 C-0.8199999928474426,119.94000244140625 5.539999961853027,132.64999389648438 5.539999961853027,132.64999389648438">
+                                    </path>
+                                </g>
+                            </g>
+                            <g transform="matrix(0.6533177495002747,-0.14857958257198334,-0.14857958257198334,-0.6533177495002747,91.83607482910156,159.16363525390625)"
+                                opacity="1">
+                                <g opacity="1" transform="matrix(1.5,0,0,1.5,0,0)">
+                                    <path class="arrow-svg-path arrow-svg-path--1" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
+                                        stroke="rgb(147,83,242)" stroke-opacity="1" stroke-width="6"
+                                        d=" M1.8020000457763672,21.783000946044922 C1.8020000457763672,21.783000946044922 9.711999893188477,3.072999954223633 9.711999893188477,3.072999954223633 C9.711999893188477,3.072999954223633 23.98200035095215,17.542999267578125 23.98200035095215,17.542999267578125">
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>

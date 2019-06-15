@@ -1,0 +1,26 @@
+.access {
+    position: relative;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.access__container{
+    padding: 100px 10px 115px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .access__container {
+        padding-top: 58px;
+        padding-bottom: 35px;
+    }
+
+    .access__title{
+        margin-bottom: 22px;
+    }
+
+    .access__subtitle{
+        margin-bottom: 26px;
+    }
+
+}
