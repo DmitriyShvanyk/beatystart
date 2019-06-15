@@ -404,7 +404,6 @@ body {
     height: 0;
     overflow: hidden;
     border-radius: 24px;
-    /*background-color: rgb(55, 55, 55);*/
     cursor: pointer;
     outline: none;
     box-sizing: border-box;
@@ -430,8 +429,9 @@ body {
     position: absolute;
     top: 50%;
     left: 52%;
+    color: #9B5AEE;
     transform: translate(-50%, -50%);
-    transition: fill .3s ease;
+    transition: color .3s ease;
 }
 
 
@@ -443,9 +443,9 @@ body {
     background-color: #894AE7;
 }
 
-.video__inner:hover .video__btn-play-triangle path,
-.video__inner:focus .video__btn-play-triangle path {
-    fill: #fff;
+.video__inner:hover .video__btn-play-triangle,
+.video__inner:focus .video__btn-play-triangle {
+    color: #fff;
 }
 
 .video__title {
@@ -495,6 +495,10 @@ body {
 
   
 
+
+.svg-sprite{
+    display: none;
+}
 
 
 

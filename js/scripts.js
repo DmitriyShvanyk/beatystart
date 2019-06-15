@@ -7,7 +7,7 @@
 		*  CAROUSEL LESSONS
 		* -------------------------------------------------------
 	*/
-   
+
     function owlInitialize() {
         if ($(window).width() < 991) {
             $('.carousel-lessons').owlCarousel({
@@ -85,6 +85,16 @@
     });
 
 
+
+    var informer = document.querySelector('.informer');
+    var informerClose = document.querySelector('.informer__close');
+
+    function hideInformer(){
+        informer.classList.add('informer--hidden')
+    }
+    informerClose.addEventListener('click', hideInformer);
+
+
     /*
 		* -------------------------------------------------------
 		*  ANIMATION SCROLL
@@ -99,8 +109,8 @@
     new ScrollMagic.Scene({
         triggerElement: ".into__body"
     })
-    .setClassToggle(".intro__arrow", "intro__arrow--active")
-    .addTo(controllerProcess);
+        .setClassToggle(".intro__arrow", "intro__arrow--active")
+        .addTo(controllerProcess);
 
     // animation bg text 1
     var controllerProcess2 = new ScrollMagic.Controller({
@@ -111,8 +121,8 @@
     new ScrollMagic.Scene({
         triggerElement: ".into__body"
     })
-    .setClassToggle(".subtitle__highlighted", "subtitle__highlighted--active")
-    .addTo(controllerProcess2);
+        .setClassToggle(".subtitle__highlighted", "subtitle__highlighted--active")
+        .addTo(controllerProcess2);
 
     // animation bg text 2
     var controllerProcess3 = new ScrollMagic.Controller({
@@ -123,8 +133,8 @@
     new ScrollMagic.Scene({
         triggerElement: ".access"
     })
-    .setClassToggle(".subtitle__highlighted", "subtitle__highlighted--active")
-    .addTo(controllerProcess3);
+        .setClassToggle(".subtitle__highlighted", "subtitle__highlighted--active")
+        .addTo(controllerProcess3);
 
 
 })();

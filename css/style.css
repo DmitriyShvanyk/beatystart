@@ -3,10 +3,16 @@
 @import url('../vendor/owl.carousel/owl.carousel.min.css');
 @import url('../vendor/owl.carousel/owl.theme.default.min.css');
 
+/* fonts */
 @import url('../css/fonts.css');
+
+/* basic */
 @import url('../css/basic.css');
+
+/* layouts */
 @import url('../css/header.css');
 @import url('../css/intro.css');
 @import url('../css/access.css');
-
+@import url('../css/informer.css');
+@import url('../css/modal.css');
 @import url('../css/footer.css');

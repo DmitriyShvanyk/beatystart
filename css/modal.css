@@ -1,0 +1,82 @@
+.fancybox-is-open .modal {
+    display: inline-flex !important;
+    flex-direction: column;
+}
+
+.modal {
+    display: none;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 0;
+    font-family: 'Cera Pro', "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+.modal__video {
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+    height: 0;
+}
+
+.modal__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.modal__content {
+    padding: 20px 10px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .fancybox-slide--html {
+        padding: 0;
+    }
+
+    .fancybox-slide--html .fancybox-close-small {
+        order: -1;
+        position: relative;
+        top: 0;
+        right: 0;
+        border: none;
+        padding: 0;
+        border-radius: 0;
+        width: 100%;
+        height: 50px;
+        white-space: nowrap;
+        background: rgba(245, 245, 245, 1);
+    }
+
+    .fancybox-slide--html .fancybox-close-small svg,
+    .fancybox-slide--html .fancybox-close-small:before,
+    .fancybox-slide--html .fancybox-close-small:after {
+        display: none;
+        box-sizing: border-box;
+    }
+
+    .fancybox-slide--html .fancybox-close-small:before {
+        top: 0;
+        left: 0;
+        right: auto;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+        border: none;
+        background: none;
+        content: '← Вернуться назад';
+        transform: rotate(0);
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        color: rgba(0, 0, 0, .302);
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+}
