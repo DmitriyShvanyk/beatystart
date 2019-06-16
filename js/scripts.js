@@ -85,7 +85,7 @@
     });
 
 
-
+    // informer
     var informer = document.querySelector('.informer');
     var informerClose = document.querySelector('.informer__close');
 
@@ -93,6 +93,47 @@
         informer.classList.add('informer--hidden')
     }
     informerClose.addEventListener('click', hideInformer);
+
+
+
+    // load video
+    function lazyLoadVideoYuotube(){
+        var youtube = document.querySelectorAll(".video-custom");
+	
+        for (var i = 0; i < youtube.length; i++){
+            
+            //youtube thumbnail
+            var image = new Image();
+            image.src = "https://img.youtube.com/vi/" + youtube[i].dataset.embed + "/maxresdefault.jpg";
+            image.setAttribute("alt","");
+            image.classList.add("video-custom__poster");
+            
+            //load image after page is loaded
+            image.addEventListener("load",function(){
+                youtube[i].appendChild(image);
+            }(i));
+            
+            //youtube play btn
+           /* var playbtn = document.createElement('button');
+                playbtn.classList.add("video-custom__btn-play");
+                youtube[i].appendChild(playbtn);     */  
+            
+            
+            //create iframe click youtube
+            youtube[i].addEventListener("click",function(){
+                var iframe = document.createElement("iframe");
+                iframe.setAttribute("src","https://www.youtube-nocookie.com/embed/" + this.dataset.embed + "?controls=1&amp;showinfo=0&amp;autoplay=1");
+                iframe.setAttribute("allow","autoplay;encrypted-media");
+                iframe.setAttribute("allowfullscreen","");
+                iframe.setAttribute("class","video-custom__iframe");
+                this.appendChild(iframe);
+                this.classList.add("video-custom--active");
+            });
+            
+        };
+    }
+	lazyLoadVideoYuotube();
+
 
 
     /*

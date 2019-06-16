@@ -111,7 +111,7 @@
         <div class="intro-top">
             <svg class="intro-top__svg" version="1" xmlns="http://www.w3.org/2000/svg" viewBox="155 -110 187 187"
                 width="100%" height="100%" preserveAspectRatio="xMidYMax slice">
-                <path fill="rgba(245, 249, 254, 1)" class="arc__path" id="arc" fill="#ccc"
+                <path fill="rgba(245, 249, 254, 1)" class="arc__path" id="arc"
                     d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
 
                 <text class="intro-top__text">
@@ -447,7 +447,14 @@
     <!--modalAccess.begin-->
     <div id="modalAccess" class="modal">
         <div class="modal__video">
-            <iframe class="modal__iframe" src="https://www.youtube.com/embed/GY7LIjgmX5w" allowfullscreen></iframe>
+            <div class="video-custom" data-embed="GY7LIjgmX5w">
+                <div class="video-custom__btn-play">
+                    <svg class="video-custom__triangle-icon" width="30" height="30"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon-play"></use>
+                    </svg>
+                </div>
+            </div>            
         </div>
         <div class="modal__content">
             <h2 class="title access__title">
@@ -491,14 +498,14 @@
     <!--modalAccess.end-->
 
     <!--scripts.begin-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/jquery.paroller.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="vendor/paroller/jquery.paroller.min.js"></script>
     <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
     <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/blazy/blazy.min.js"></script>
     <script src="js/ScrollMagic.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
-    <script src="js/animation.gsap.min.js"></script>
-    <script src="js/blazy.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>    
     <script src="js/scripts.js"></script>
     <!--scripts.end-->
 
