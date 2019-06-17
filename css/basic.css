@@ -411,6 +411,10 @@ body {
     box-sizing: border-box;
 }
 
+.video__inner--mobile{
+    display: none;
+}
+
 .video__btn-play {
     position: absolute;
     top: 42%;
@@ -475,6 +479,13 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+
+    .video__inner{
+        display: none;
+    }
+    .video__inner--mobile{
+        display: block;
+    }
 
     .video__btn-play {
         height: 70px;

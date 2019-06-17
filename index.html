@@ -77,7 +77,7 @@
                         Как с помощью рекламы в Facebook<br> и Instagram привлекать до 100 клиентов каждый день в салон
                         красоты
                     </h2>
-                    <a href="#" class="btn" target="_blank">
+                    <a href="#access" class="btn js-scroll" target="_blank">
                         <span class="btn__lines-left"></span>
                         <span class="btn__lines-right"></span>
                         Получить доступ
@@ -109,13 +109,13 @@
 
         <!--intro.begin-->
         <div class="intro-top">
-            <svg class="intro-top__svg" version="1" xmlns="http://www.w3.org/2000/svg" viewBox="155 -110 187 187"
+            <svg class="intro-top__svg" version="1" xmlns="http://www.w3.org/2000/svg" viewBox="157 -110 187 187"
                 width="100%" height="100%" preserveAspectRatio="xMidYMax slice">
                 <path fill="rgba(245, 249, 254, 1)" class="arc__path" id="arc"
                     d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
 
                 <text class="intro-top__text">
-                    <textpath class="intro-top__textpath" xlink:href="#arc" font-size="5" font-weight="bold" fill="#fff"
+                    <textpath class="intro-top__textpath" xlink:href="#arc" font-size="4" font-weight="bold" fill="rgba(255,255,255,.7)"
                         spacing="auto">
                         бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot; бесплатный видеокурс
                         &sdot;
@@ -124,8 +124,16 @@
                         бесплатный видеокурс &sdot; бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс
                         &sdot;
                         бесплатный
-                        видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot;
-                        <animate attributeName="startOffset" from="0%" to="100%" begin="0s" dur="80s"
+                        видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot;     
+                        бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot; бесплатный видеокурс
+                        &sdot;
+                        salonboost
+                        &sdot;
+                        бесплатный видеокурс &sdot; бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс
+                        &sdot;
+                        бесплатный
+                        видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot;                   
+                        <animate attributeName="startOffset" from="-100%" to="100%" begin="0s" dur="120s"
                             repeatCount="indefinite" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.2 .22 1" />
                     </textpath>
                 </text>
@@ -135,6 +143,21 @@
             <div class="container intro__container">
                 <div class="video intro__video">
                     <a class="video__inner" data-fancybox href="https://www.youtube.com/watch?v=GY7LIjgmX5w?autoplay=1">
+                        <div class="video__btn-play">
+                            <svg class="video__btn-play-triangle" width="30" height="30"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon-play"></use>
+                            </svg>
+                        </div>
+                        <h3 class="video__title">
+                            Узнайте за 20 секунд, как проходят уроки и что вы на них узнаете
+                        </h3>
+
+                        <img class="video__poster b-lazy"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            data-src="img/video-poster.gif" alt="">
+                    </a>
+                    <a class="video__inner video__inner--mobile" data-fancybox data-src="#modalAccess" href="javascript:;">
                         <div class="video__btn-play">
                             <svg class="video__btn-play-triangle" width="30" height="30"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -277,7 +300,7 @@
                 </div>
 
                 <div class="intro__btn-container">
-                    <a href="#" class="btn" target="_blank">
+                    <a href="#access" class="btn js-scroll" target="_blank">
                         <span class="btn__lines-left"></span>
                         <span class="btn__lines-right"></span>
                         Смотреть уроки <span class="intro__hidden-mobile">бесплатно</span>
@@ -320,8 +343,16 @@
                         бесплатный видеокурс &sdot; бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс
                         &sdot;
                         бесплатный
-                        видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot;
-                        <animate attributeName="startOffset" from="0%" to="100%" begin="0s" dur="80s"
+                        видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot;    
+                        бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot; бесплатный видеокурс
+                        &sdot;
+                        salonboost
+                        &sdot;
+                        бесплатный видеокурс &sdot; бесплатный видеокурс &sdot; salonboost &sdot; бесплатный видеокурс
+                        &sdot;
+                        бесплатный
+                        видеокурс &sdot; salonboost &sdot; бесплатный видеокурс &sdot;                    
+                        <animate attributeName="startOffset" from="-100%" to="100%" begin="0s" dur="120s"
                             repeatCount="indefinite" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.2 .22 1" />
                     </textpath>
                 </text>
@@ -331,7 +362,7 @@
 
         <!--access.begin-->
         <section class="access">
-            <div class="container access__container">
+            <div class="container access__container" id="access">
 
                 <h2 class="title access__title">
                     Получите доступ<br> к бесплатному видеокрусу
