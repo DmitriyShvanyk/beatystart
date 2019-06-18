@@ -4,15 +4,19 @@
     background: linear-gradient(to bottom, rgba(253, 253, 250, 1) 0%, rgba(244, 212, 216, 1) 50%, rgba(237, 165, 195, 1) 100%);
 }
 
-.header__container{
-    padding-bottom: 160px;
+.header__container,
+.header__inner{
     position: relative;
     z-index: 2;
 }
 
+.header__container{
+    padding-bottom: 160px;   
+}
+
 .header__inner {
     text-align: center;
-    position: relative;
+    
 }
 
 .header__logo {
@@ -57,39 +61,39 @@
     margin-top: 18px;
 }
 
-.header__icon-cat {
+.header__icon-cat,
+.header__icon-hoss,
+.header__icon-fb,
+.header__icon-instagram{
     position: absolute;
-    top: 135px;
-    left: -8px;
     pointer-events: none;
 }
 
+.header__icon-cat {    
+    top: 135px;
+    left: -8px;    
+}
+
 .header__icon-hoss {
-    position: absolute;
     top: 31.5%;
     right: -57px;
-    pointer-events: none;
     z-index: 2;
 }
 
 .header__icon-fb {
-    position: absolute;
     left: 8%;
     bottom: 7.5%;
     width: 84px;
     height: 84px;
     transform: rotate(-15deg);
-    pointer-events: none;
 }
 
 .header__icon-instagram {
-    position: absolute;
     right: 8%;
     bottom: 6%;
     width: 74px;
     height: 74px;
     transform: rotate(15deg);
-    pointer-events: none;
 }
 
 @media screen and (max-width: 991px) {
