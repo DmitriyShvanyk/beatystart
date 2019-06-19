@@ -124,8 +124,8 @@
 
 .intro__arrow--active .intro__arrow-path {
     stroke-dasharray: 500;
-    stroke-dashoffset: -500;
-    animation: dash 2.2s linear forwards alternate;
+    stroke-dashoffset: 500;
+    animation: dash 2s linear alternate forwards;
 }
 
 .intro__arrow--active .intro__arrow-path--1 {
@@ -133,13 +133,13 @@
 }
 
 @keyframes dash {
-
-    50%,
+    0%{
+        stroke-dashoffset: 500;					
+    }				              
     100% {
-        stroke-dashoffset: 0;
+        stroke-dashoffset: 1000;					
     }
 }
-
 
 .intro__btn-container {
     text-align: center;
@@ -180,7 +180,6 @@
 
 }
 
-
 @media screen and (max-width: 576px) {
 
     .intro-bottom {
@@ -215,15 +214,7 @@
     .intro__arrow-svg {
         height: 100px;
         width: 100px;
-    }
-
-    .intro__arrow--active .intro__arrow-path {
-       animation: dash 4s linear forwards alternate;
-    }
-
-    .intro__arrow--active .intro__arrow-path--1 {
-        animation-delay: .6s;
-    }
+    }   
 
 }
 
