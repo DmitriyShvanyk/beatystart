@@ -123,10 +123,6 @@
 }
 
 .intro__arrow--active .intro__arrow-path {
-    animation: dash 2.2s linear;
-}
-
-.intro__arrow--active .intro__arrow-path {
     stroke-dasharray: 500;
     stroke-dashoffset: -500;
     animation: dash 2.2s linear forwards alternate;
@@ -214,11 +210,19 @@
         margin-top: 0px;
         margin-bottom: 22px;
         left: -12px;
-    }
+    }   
 
     .intro__arrow-svg {
         height: 100px;
         width: 100px;
+    }
+
+    .intro__arrow--active .intro__arrow-path {
+       animation: dash 4s linear forwards alternate;
+    }
+
+    .intro__arrow--active .intro__arrow-path--1 {
+        animation-delay: .6s;
     }
 
 }
