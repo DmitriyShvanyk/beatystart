@@ -70,7 +70,6 @@
 
 }
 
-
 @media screen and (max-width: 1400px) {
 
     .intro-top {
@@ -95,9 +94,19 @@
 
     .intro-top {
         margin-top: -180px;
+    }    
+
+    .intro-bottom {
+        padding-bottom: calc(17% + 9px);
+    }
+
+    .intro-bottom__svg {
+        width: calc(100% + 160px);
     }
 
 }
+
+
 
 .intro__container {
     padding-top: 1px;
@@ -181,11 +190,7 @@
 }
 
 @media screen and (max-width: 576px) {
-
-    .intro-bottom {
-        padding-bottom: 19%;
-    }
-
+   
     .intro__video {
         margin: -85px auto 45px auto;
     }
@@ -215,6 +220,10 @@
         height: 100px;
         width: 100px;
     }   
+	
+	.intro__arrow--active .intro__arrow-path {
+		animation-duration: 1s;
+	}
 
 }
 
